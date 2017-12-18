@@ -1,0 +1,8 @@
+Bash script to automate the addition VirtualHost in lampp/xampp (in linux).
+You just add new folders to the /opt/lampp/www folder and they become virtual hosts
+Your lampp directory should be in /opt/lampp/
+
+How install:
+1) Copy www folder (or create) in /opt/lampp/ witch files "add_vhosts.sh" and "install_vhosts.sh"
+2) Open terminal and "cd /opt/lampp/www" 
+3) Run in comand line "sudo sh install_vhosts.sh" . This script uncomment "Include etc/extra/httpd-vhosts.conf"  and will add autostart with lampp.

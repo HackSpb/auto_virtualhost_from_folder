@@ -1,0 +1,3 @@
+it's work!
+<?
+phpinfo();?>
